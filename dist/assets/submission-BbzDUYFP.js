@@ -1,0 +1,1 @@
+import{r as t}from"./request-BQNc1CDM.js";const e=s=>t({url:"/submissions",method:"post",data:s}),r=()=>t({url:"/submissions",method:"get"}),i=s=>t({url:`/submissions/${s}`,method:"get"}),u=s=>t({url:`/submissions/problem/${s}`,method:"get"});export{u as a,i as b,r as g,e as s};

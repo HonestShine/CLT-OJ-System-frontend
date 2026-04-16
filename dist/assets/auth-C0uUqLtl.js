@@ -1,0 +1,1 @@
+import{r}from"./request-BQNc1CDM.js";const e=t=>r({url:"/auth/login",method:"post",data:t}),s=t=>r({url:"/auth/register",method:"post",data:t}),u=()=>r({url:"/auth/logout",method:"post"}),a=t=>r({url:"/auth/change",method:"put",data:t});export{u as a,a as c,e as l,s as r};

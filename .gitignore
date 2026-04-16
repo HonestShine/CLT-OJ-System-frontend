@@ -1,0 +1,36 @@
+# 依赖目录
+node_modules/
+
+# 构建输出
+dist/
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# IDE 配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+Thumbs.db
+
+# 统一文本文件的换行符处理
+* text=auto
+
+# 明确指定某些文件类型使用 LF
+*.js text eol=lf
+*.ts text eol=lf
+*.vue text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# 二进制文件不进行换行符转换
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary

@@ -1,0 +1,1 @@
+import{r as t}from"./request-BQNc1CDM.js";const s=e=>t({url:`/users/${e}`,method:"get"}),u=()=>t({url:"/users/me",method:"get"}),a=e=>t({url:"/users",method:"put",data:e}),o=e=>t({url:"/users/upload",method:"post",data:e,headers:{"Content-Type":"multipart/form-data"}}),d=()=>t({url:"/users/",method:"delete"});export{s as a,a as b,d,u as g,o as u};
