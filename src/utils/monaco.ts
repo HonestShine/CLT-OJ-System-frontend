@@ -37,13 +37,11 @@ const customTheme: monaco.editor.IStandaloneThemeData = {
   inherit: true, // 继承默认语法高亮规则
   rules: [
     { token: 'comment', foreground: '#617b91', fontStyle: 'italic' }, // 注释呈现斜体灰蓝
-    { token: 'keyword', foreground: '#9333ea', fontStyle: 'bold' }, // 关键字加粗紫色
-    { token: 'keyword.class', foreground: '#f97316', fontStyle: 'bold' }, // class关键字橙色
-    { token: 'type', foreground: '#f97316' }, // 类型标识橙色
-    { token: 'type.name', foreground: '#f97316' }, // 类型名橙色
-    { token: 'type.name.class', foreground: '#f97316' }, // 类名橙色
-    { token: 'string', foreground: '#22c55e' }, // 字符串绿色
-    { token: 'number', foreground: '#3b82f6' }, // 数字蓝色
+    { token: 'keyword', foreground: '#e88741ff' }, // 关键字橙黄色
+    { token: 'keyword.void', foreground: '#ffffff' }, // void关键字紫色
+    { token: 'string', foreground: '#038934ff' }, // 字符串绿色
+    { token: 'string.char', foreground: '#10b981' }, // 字符型浅绿色
+    { token: 'number', foreground: '#3aa9d9ff' }, // 数字蓝色
     { token: 'operator', foreground: '#c7cacf' }, // 运算符浅灰
     { token: 'delimiter', foreground: '#c7cacf' }, // 分隔符浅灰
     { token: 'function', foreground: '#facc15' }, // 函数名黄色
@@ -71,4 +69,4 @@ const customTheme: monaco.editor.IStandaloneThemeData = {
 }
 
 // 注册自定义主题
-monaco.editor.defineTheme('custom-dark', customTheme)
+monaco.editor.defineTheme('custom-dark', customTheme);
