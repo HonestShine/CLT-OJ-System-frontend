@@ -41,7 +41,7 @@ front_end/
 
 ### 1. 安装依赖
 ```bash
-cd front_end
+cd front_end  -- 以 front_end 目录为例，具体目录是文件 package.json 和 package-lock.json 所在目录
 npm install
 ```
 
